@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans serif;
+}
+
+body {
+    //height: 100vh;
+    background: linear-gradient(120deg,#ffffff);
+    //display: flex;
+}
+
+header h1 {
+    display: flex;
+    //padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+main{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.estacionamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: #2F9E41;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.estacionamento div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.estacionamento span {
+    fonte-weight: bolder;
+    font-size: 60px;
+}
+
+.estacionamento span.tempo{
+    font-size: 20px;
+}
+
+.inicio{
+    width: 200px;
+    height: 120px;
+}
+
+.bt{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #000;
+    border-radius:50px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:25px;
+    padding:10px 10px;
+    text-decoration:none;
+    background: #2F9E41;
+    margin: 20px 15px;
+}
+
+.bt2{
+    color: #000;
+    //display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #000;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:20px;
+    padding:5px 10px;
+    text-decoration:none;
+    background: #008000;
+    margin: 10px 10px;
+}
