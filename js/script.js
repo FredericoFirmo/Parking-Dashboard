@@ -7,7 +7,7 @@ var url = "http://127.0.0.1/contagem/";
 function GetVagas(){
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", url, false);
-    xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
+    xhttp.send();
     console.log(xhttp.responseText);
     var vagas = xhttp.responseText;
     var obj = JSON.parse(vagas);
